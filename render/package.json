@@ -1,0 +1,18 @@
+{
+  "name": "feedbot-render",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion side of feedbot: turns a script plus word timings into a reel.",
+  "scripts": {
+    "render": "remotion render src/index.ts reel"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.516",
+    "@remotion/renderer": "^4.0.516",
+    "iblis-react-undraw": "^0.3.0",
+    "lucide-react": "^1.34.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "remotion": "^4.0.516"
+  }
+}
